@@ -6,10 +6,7 @@
   <title>Manu Mathew Jiss | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: 'Nunito', sans-serif;
@@ -17,13 +14,11 @@
       color: #333;
       line-height: 1.6;
     }
-
     header {
       background-color: #f6f1eb;
       text-align: center;
       padding: 2rem 1rem;
     }
-
     .profile-pic {
       width: 140px;
       height: 140px;
@@ -32,67 +27,40 @@
       margin-bottom: 1rem;
       border: 3px solid #d9cab3;
     }
-
-    h1 {
-      margin: 0.2rem 0;
-      font-size: 2rem;
-    }
-
+    h1 { margin: 0.2rem 0; font-size: 2rem; }
     .bio {
       font-size: 1rem;
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto 1rem;
       color: #555;
     }
-
     nav a {
       margin: 0 1rem;
       text-decoration: none;
       color: #5e4b2a;
       font-weight: bold;
     }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
+    nav a:hover { text-decoration: underline; }
     section {
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
-
     h2 {
       color: #5e4b2a;
       border-bottom: 2px solid #d9cab3;
       padding-bottom: 0.3rem;
       margin-bottom: 1rem;
     }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 1.2rem;
-    }
-
-    .social li {
-      display: inline-block;
-      margin: 0.5rem 1rem 0.5rem 0;
-    }
-
+    ul { list-style-type: none; padding: 0; }
+    li { margin-bottom: 1.2rem; }
+    .social li { display: inline-block; margin: 0.5rem 1rem 0.5rem 0; }
     .social a {
       color: #333;
       text-decoration: none;
       font-weight: bold;
     }
-
-    .social a:hover {
-      color: #7b5e3c;
-    }
-
+    .social a:hover { color: #7b5e3c; }
     footer {
       background-color: #f6f1eb;
       text-align: center;
@@ -108,9 +76,13 @@
     <img src="profile.jpg" alt="Manu Mathew Jiss" class="profile-pic" />
     <h1>Manu Mathew Jiss</h1>
     <p class="bio">
-      I'm a Computer Science graduate student at the University of the Pacific, with a strong interest in Artificial Intelligence, Cybersecurity, and Explainable AI. I build practical ML systems and full-stack applications that solve real-world problems.
+      M.S. Computer Science student at the University of the Pacific (Expected Spring 2026). Passionate about
+      Artificial Intelligence, Explainable AI (XAI), and Cybersecurity. Experienced in building ML pipelines, full-stack
+      applications, and data-driven research systems. Skilled in Python, C++, and JavaScript with a focus on scalable
+      AI solutions.
     </p>
     <nav>
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#research">Research</a>
       <a href="#skills">Skills</a>
@@ -118,51 +90,38 @@
     </nav>
   </header>
 
-  <section id="projects">
-    <h2>Highlighted Projects</h2>
+  <section id="experience">
+    <h2>Experience</h2>
     <ul>
       <li>
-        <strong>LIMFADD - Fake Account Detection on Instagram:</strong>
-        <p>Multi-class classification model using DNNs and LLM-based data augmentation. Achieved 0.97 F1-score. <a href="https://github.com/manumathewjiss/LIMFADD" target="_blank">GitHub Repo</a></p>
+        <strong>Software Engineering Intern – Stock Crusher (GenAI Startup)</strong> | Summer 2025 – Present
+        <p>Built a full-stack AI-powered trading platform integrating 7+ APIs (Reddit, Twitter/X, Yahoo Finance) to deliver real-time BUY/SELL/HOLD recommendations. Developed Flask REST APIs with parallel processing, reducing response times by 3–5×.</p>
       </li>
       <li>
-        <strong>Stock Crusher (Ongoing):</strong>
-        <p>AI-powered trading recommendation platform combining Reddit, X, Yahoo Finance, and news APIs. Built with Flask, Google Gemini API, and RESTful integrations.</p>
-      </li>
-      <li>
-        <strong>Reddit Sentiment & Intent Analyzer:</strong>
-        <p>Automated pipeline for Reddit sentiment analysis using VADER and word clouds to identify negative software trends.</p>
-      </li>
-      <li>
-        <strong>CKD Early Detection (Ongoing):</strong>
-        <p>Multi-modal AI model combining NLP and CNN for detecting chronic kidney disease from clinical data.</p>
-      </li>
-      <li>
-        <strong>Crop Monitoring & Maturity Detection:</strong>
-        <p>Image-based crop monitoring using TensorFlow, OpenCV, and Flask to optimize harvesting in plantation crops like coconut and pepper.</p>
-      </li>
-      <li>
-        <strong>On-Tree Arecanut Maturity Detection:</strong>
-        <p>Drone-based YOLO-V5 model deployed via AWS Lambda to classify arecanut maturity in real-time.</p>
-      </li>
-      <li>
-        <strong>Pest Detection Using SVM:</strong>
-        <p>SVM-based image classification system for detecting tea leaf pests via a Flask web interface.</p>
+        <strong>Research Assistant – University of the Pacific</strong> | Fall 2024 – Present
+        <p>Created LIMFADD, a first-of-its-kind multi-class dataset (Real, Spam, Scam, Bot) with LLM augmentation (16× data expansion). Automated sentiment analysis pipeline on 3,400+ Reddit posts and visualized results, improving reliability and reproducibility of research workflows.</p>
       </li>
     </ul>
   </section>
 
-  <section id="research">
-    <h2>Research Papers</h2>
+  <section id="projects">
+    <h2>Highlighted Projects</h2>
     <ul>
-      <li>
-        <strong>The Role of Explainable LLMs in CVD Detection:</strong>
-        <p>Systematic review exploring SHAP, LIME, and ethical concerns in applying LLMs for early cardiovascular disease detection.</p>
-      </li>
-      <li>
-        <strong>Fake Account Detection on Instagram:</strong>
-        <p>Ongoing research on social media cybersecurity using deep learning, NLP, and graph-based modeling techniques.</p>
-      </li>
+      <li><strong>LIMFADD – Fake Account Detection:</strong> Multi-class classification model (Real/Spam/Scam/Bot) with DNNs and LIME explainability. Achieved 0.97 F1-score. <a href="https://github.com/manumathewjiss/LIMFADD" target="_blank">GitHub Repo</a></li>
+      <li><strong>Stock Crusher:</strong> AI-powered trading assistant with live data from Reddit, X, and finance APIs. Built with Flask + Google Gemini API.</li>
+      <li><strong>Reddit Sentiment & Intent Analyzer:</strong> Multi-stage VADER sentiment pipeline with visualization of trends over time.</li>
+      <li><strong>CKD Early Detection:</strong> Multi-modal AI model using NLP + CNN for clinical diagnosis of chronic kidney disease.</li>
+      <li><strong>Crop Monitoring & Maturity Detection:</strong> Android + TensorFlow solution for plantation crop disease detection and harvest optimization.</li>
+      <li><strong>On-Tree Arecanut Maturity Detection:</strong> YOLO-V5 + AWS Lambda pipeline for drone-based classification in real time.</li>
+      <li><strong>Pest Detection Using SVM:</strong> Image-based pest detection pipeline with Flask front-end for real-time insights.</li>
+    </ul>
+  </section>
+
+  <section id="research">
+    <h2>Research Papers & Conferences</h2>
+    <ul>
+      <li><strong>Explainable LLMs for Cardiovascular Disease Detection:</strong> Systematic review proposing SHAP/LIME-based frameworks for AI diagnostics.</li>
+      <li><strong>LIMFADD Presentation – IEEE ISTAS25:</strong> Presented novel LLM-augmented Instagram fake account dataset, achieving 97% accuracy and discussing AI ethics with global researchers.</li>
     </ul>
   </section>
 
@@ -170,8 +129,8 @@
     <h2>Technical Skills</h2>
     <ul>
       <li><strong>Languages:</strong> Python, C++, JavaScript</li>
-      <li><strong>ML/AI:</strong> TensorFlow, YOLO-V5, Scikit-learn, OpenCV, SHAP, LIME, XAI, NLP, LLMs, RAG</li>
-      <li><strong>Tools & APIs:</strong> Flask, RESTful APIs, Reddit API, GitHub</li>
+      <li><strong>ML/AI:</strong> TensorFlow, YOLO-V5, Scikit-learn, OpenCV, SHAP, LIME, NLP, RAG, LLMs</li>
+      <li><strong>Tools & APIs:</strong> Flask, REST APIs, Reddit API, NewsAPI, Yahoo Finance, GitHub</li>
       <li><strong>Cybersecurity:</strong> Ethical Hacking, Threat Analysis, Network Security</li>
     </ul>
   </section>
